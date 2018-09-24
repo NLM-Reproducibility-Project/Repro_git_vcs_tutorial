@@ -4,16 +4,15 @@ Git and Version Control
 [NLM 2018 REPRODUCIBILITY WORKSHOP](https://nlm-repro.github.io/)
 
 [Keith Hughitt](keith.hughitt@nih.gov)
-
 2018-09-24
 
 Outline
 -------
 
-- Overview
+- [Overview](#overview)
     - Intro to version control systems (VCS)
     - Why is VCS useful?
-- Git Basics
+- [Git Basics](#git-basics)
     - Installation
     - Six most useful git commands to know
         1. Creating a new repo (git init)
@@ -22,7 +21,7 @@ Outline
         4. Pushing your changes to a remote repo (git push)
         5. Pulling changes made to a remote repo (git pull)
         6. Downloading a copy of a remote repo (git clone)
-- GitHub Basics
+- [GitHub Basics](#github-basics)
     - Overview
     - Why use GitHub?
     - Single-user Workflow
@@ -31,8 +30,8 @@ Outline
     - Making changes
     - Accepting changes
     - Other multi-user workflows
-- Beyond just code
-- Further reading
+- [Beyond just code](#beyond-just-code)
+- [Further reading](#further-reading)
 
 Overview
 --------
@@ -359,5 +358,6 @@ References
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - https://help.github.com/articles/github-flavored-markdown
 
-This tutorial was adapted from [an earlier version](https://github.com/umd-byob/presentations/tree/master/2014/0128-into_to_git) 
-originally presented at a UMD bioinformatics club meeting in January, 2014.
+_Note: This tutorial was adapted from [an earlier version](https://github.com/umd-byob/presentations/tree/master/2014/0128-into_to_git) 
+originally presented at a UMD bioinformatics club meeting in January, 2014._
+
