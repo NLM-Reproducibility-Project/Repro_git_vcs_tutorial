@@ -164,11 +164,22 @@ $ git commit -m 'Important change #1'
  1 file changed, 1 insertion(+)
  create mode 100644 newfile
 $ 
-
-Only the changes that you have stages (using `git add`) will be included in
-the commit. To include all changes made to files in the repo, you can use
-`git commit -am`.
 ```
+
+Here, the `-m` parameter is used to specify a commit "message" to associate with the changes you've
+made.
+
+Note that when you use the command `git commit -m`, only the changes that you have stages (using
+`git add`) will be included in the commit. In order to include all changes made to files in the repo, you
+can use `git commit -am`. This will include all files already in the repo (i.e. previously added
+using `git add`) to the commit.
+
+So, to recap:
+
+- When you want to add a _new file_, use `git add <filename>` or `git add .`
+- When you want to save changes made to one or more _existing_ files in the repo, use
+  `git add <changed_file1> <changed_file2> ...` + `git commit -m "message"` or, 
+  `git commit -am "message"` to include all modified files.
 
 ## 4. Pushing your changes to a remote repo (git push)
 
