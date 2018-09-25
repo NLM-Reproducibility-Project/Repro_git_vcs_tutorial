@@ -108,6 +108,7 @@ This is 99% of what you need to know to use Git:
 3. git commit
 4. git push
 5. git pull
+6. git clone
 
 ## 1. Creating a new repo (git init)
 
