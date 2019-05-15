@@ -14,13 +14,14 @@ Outline
     - Why is VCS useful?
 - [Git Basics](#git-basics)
     - Installation
-    - Six most useful git commands to know
-        1. Creating a new repo (git init)
-        2. Checking a repo's status (git status)
-        3. Saving changes (git commit)
-        4. Pushing your changes to a remote repo (git push)
-        5. Pulling changes made to a remote repo (git pull)
-        6. Downloading a copy of a remote repo (git clone)
+    - Seven most useful git commands to know
+        1. Creating a new repo (`git init`)
+        2. Adding files to a repo (`git add`)
+        3. Checking a repo's status (`git status`)
+        4. Saving changes (`git commit`)
+        5. Pushing your changes to a remote repo (`git push`)
+        6. Pulling changes made to a remote repo (`git pull`)
+        7. Downloading a copy of a remote repo (`git clone`)
 - [GitHub Basics](#github-basics)
     - Overview
     - Why use GitHub?
@@ -107,16 +108,17 @@ also include functionality for interacting with VCS tools, including Git.
 Download and install Git from
 [git-scm.com](http://git-scm.com/book/en/Getting-Started-Installing-Git).
 
-## Six most useful git commands to know
+## Seven most useful git commands to know
 
 This is 99% of what you need to know to use Git:
 
 1. git init
-2. git status
-3. git commit
-4. git push
-5. git pull
-6. git clone
+2. git add
+3. git status
+4. git commit
+5. git push
+6. git pull
+7. git clone
 
 ## 1. Creating a new repo (git init)
 
@@ -131,7 +133,14 @@ Initialized empty Git repository in /home/username/test/.git/
 $
 ```
 
-## 2. Checking a repo's status (git status)
+## 2. Adding files to a Git repo (git add)
+
+```bash
+$ touch foo.txt
+$ git add foo.txt
+```
+
+## 3. Checking a repo's status (git status)
 
 It's always a good idea before making a commit to check the status of a repo
 before making any changes using `git status`:
@@ -163,7 +172,7 @@ Changes to be committed:
 $
 ```
 
-## 3. Saving changes (git commit)
+## 4. Saving changes (git commit)
 
 Once you have done something interesting, `commit` it!
 
@@ -190,7 +199,7 @@ So, to recap:
   `git add <changed_file1> <changed_file2> ...` + `git commit -m "message"` or, 
   `git commit -am "message"` to include all modified files.
 
-## 4. Pushing your changes to a remote repo (git push)
+## 5. Pushing your changes to a remote repo (git push)
 
 Once you have committed some changes, you may want to sync them with a remote
 repository such as GitHub. This is done using the `git push` command.
@@ -213,7 +222,7 @@ If your repo is hosted on Github and this is the first time you are pushing chan
 the computer you are using, you will also need to [add a public SSH key](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 for that computer to your Github account.
 
-## 5. Pulling changes made to a remote repo (git pull)
+## 6. Pulling changes made to a remote repo (git pull)
 
 Once you start to collaborate with other people, you will need a way to sync
 your repo when other people have made changes to the shared repo.
@@ -236,7 +245,7 @@ Fast-forward
 $ 
 ```
 
-## 6. Downloading a copy of a remote repo (git clone)
+## 7. Downloading a copy of a remote repo (git clone)
 
 Finally, you may come across code or other files hosted in an online repo (usually on Github) that
 you wish to download and possibly make changes to. The command to do so is `git clone`:
