@@ -209,6 +209,10 @@ $
 Note that for this to work, you must first create a remote repo and add a
 reference to it. We will come back to this part later...
 
+If your repo is hosted on Github and this is the first time you are pushing changes from
+the computer you are using, you will also need to [add a public SSH key](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+for that computer to your Github account.
+
 ## 5. Pulling changes made to a remote repo (git pull)
 
 Once you start to collaborate with other people, you will need a way to sync
