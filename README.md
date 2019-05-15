@@ -1,10 +1,10 @@
 Git and Version Control
 =======================
 
-[NLM 2018 REPRODUCIBILITY WORKSHOP](https://nlm-repro.github.io/)
+[NLM REPRODUCIBILITY WORKSHOP](https://nlm-repro.github.io/)
 
 [Keith Hughitt](keith.hughitt@nih.gov)
-2018-09-24
+2019-05-15
 
 Outline
 -------
@@ -43,7 +43,7 @@ Of course, there are already numerous tutorials which do this and do a much
 better job than I could hope to do, e.g.:
 
 - [Git - gittutorial Documentation](http://git-scm.com/docs/gittutorial)
-- [Try Git: Code School](http://try.github.io/levels/1/challenges/1)
+- [Try Git: Code School](http://try.github.io)
 - [Set Up Git · GitHub Help](https://help.github.com/articles/set-up-git)
 - [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 
@@ -93,6 +93,14 @@ Some of the main uses for VCS include:
 
 Git Basics
 ----------
+
+In order to make use of Git and Github, you must first download and install the Git
+client. Below, we focus on using on the command-line `git` command. Depending on your
+OS, there may also be a [GUI
+interface](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Graphical-Interfaces)
+to git that you can also use. Many modern integrated development environments (IDEs)
+(for example, [RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)) 
+also include functionality for interacting with VCS tools, including Git.
 
 ## Installation
 
@@ -330,7 +338,7 @@ be used for collaboration on GitHub -- the above just illustrates one of these
 which I am partial to.
 
 For larger efforts, you can also [create teams on
-GitHub](https://help.github.com/articles/how-do-i-set-up-a-team) so that an
+GitHub](https://help.github.com/en/articles/organizing-members-into-teams) so that an
 entire team owns or manages a repo instead of a single user.
 
 Beyond just code...
@@ -344,8 +352,8 @@ using it for just code. Some other useful things it can be used for include:
     - [Knitr output](https://github.com/khughitt/network-layouts)
     - [Science manuscripts](https://github.com/sunpy/sunpy-0.4-paper)
 - Websites
-    - [NLM 2018 REPRODUCIBILITY WORKSHOP](https://nlm-repro.github.io/)
-    - [Slidify](http://khughitt.github.io/slidify-byob-intro/)
+    - [NLM REPRODUCIBILITY WORKSHOP](https://nlm-repro.github.io/)
+    - [Slidify presentations](http://khughitt.github.io/slidify-byob-intro/)
 - Images
 - Etc.
 
